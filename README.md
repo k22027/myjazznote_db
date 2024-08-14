@@ -103,7 +103,7 @@
 | ホスト名 | localhost |
 | パスワード | jazz_pass |
 
-### 4.2 テーブル1 song
+### 4.2 songテーブル
 | テーブル名 | song |
 | ---- | ---- |
 | 曲ID | song_id |
@@ -114,10 +114,19 @@
 | 種類 | song_type |
 | 作成者 | user_id |
 
-### 3.3 テーブル2 user
+### 4.3 userテーブル
 | テーブル名 | user |
 | ---- | ---- |
 | ID | song_id |
 | 表示用ユーザー名 | username |
 | メールアドレス | useremail |
 | パスワード | password |
+
+### 4.4 実装環境
+- MacOS: sonoma 14.3
+- Apache: 2.4.56
+- XAMPP for OS X:7.4.33-0
+- MariaDB: 10.4.27
+- Perl: 5.30.3
+- MySQL Native Driver: 7.4.33 
+- PHP: 7.4.33
