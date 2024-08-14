@@ -108,7 +108,7 @@
 | ---- | ---- |
 | 曲ID | song_id |
 | 曲名 | song-title |
-| キー | song_ke |
+| キー | song_key |
 | 拍子 | song_beat |
 | 難易度 | song_standard |
 | 種類 | song_type |
